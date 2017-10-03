@@ -2,19 +2,19 @@ class Car:
     """
     This is a car class
     """
-    nrOfInst = 0
+    nr_of_inst = 0
 
     def __init__(self, name, color):
         self.name = name
         self.color = color
-        Car.nrOfInst += 1
+        Car.nr_of_inst += 1
 
     def show(self):
         print(f'This is a {self.color} car and  is named {self.name}')
 
     @staticmethod
     def ShowNrOfInst():
-        print(f'The class Car is instanced {Car.nrOfInst}')
+        print(f'The class Car is instanced {Car.nr_of_inst}')
 
 
 class SmallCar(Car):
