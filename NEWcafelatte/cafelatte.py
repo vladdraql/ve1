@@ -14,3 +14,6 @@ class CafeLatte(Coffee):
     def prepare_coffee_time(self):
         time_to_prepare = 4 * self.coffee_spoons + 2 * self.sugar_spoons + self.milk/100
         print(f'dureaza {int(time_to_prepare)} secunde sa va preparam cafeaua, b0$$')
+
+    def energy(self):
+        return self.coffee_spoons * self.milk**2

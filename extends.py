@@ -32,3 +32,4 @@ if __name__ == '__main__':
     Duster = Car('Dacia Duster', 'black')
     Sandero = Car('Dacia Sandero', 'red')
     VW = SmallCar(small_car_name='VW Up', small_car_color='blue', size='56')
+

@@ -10,3 +10,4 @@ if __name__ == '__main__':
     cafea2 = CafeLatte(coffee_spoons=2, sugar_spoons=2, water=200, milk=200)
     cafea2.prepare_coffee_time()
     print(f'aceasta cafea are cantitatea: {cafea2.prepare_coffee()}')
+    print(f'energy = {cafea2.energy()}')
